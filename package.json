@@ -1,6 +1,6 @@
 {
   "name": "ngx-breadcrumbs-go",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Breadcrumb generator for Angular",
   "main": "./ng6-breadcrumbs.js",
   "scripts": {

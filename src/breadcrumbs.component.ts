@@ -101,7 +101,7 @@ export class BreadcrumbComponent implements OnInit {
         // Set currentRoute to this route
         currentRoute = route;
         
-        const hasData = (route.routeConfig && route.routeConfig.data);
+        const hasData = (route.routeConfig && route.routeConfig.data && route.routeConfig.data.breadcrumb);
         const hasDynamicBreadcrumb: boolean = route.snapshot.params.hasOwnProperty(this.ROUTE_PARAM_BREADCRUMB);
 
         if (hasData || hasDynamicBreadcrumb) {
