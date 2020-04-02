@@ -1,7 +1,7 @@
 {
-  "name": "ng6-breadcrumbs",
-  "version": "1.0.7",
-  "description": "Breadcrumb generator for Angular 5",
+  "name": "ngx-breadcrumbs-go",
+  "version": "1.0.8",
+  "description": "Breadcrumb generator for Angular",
   "main": "./ng6-breadcrumbs.js",
   "scripts": {
     "clear-lib": "rm -rf lib",
@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ekos-27/ng2-breadcrumbs"
+    "url": "https://github.com/RicardoBorgesGO/ng2-breadcrumbs"
   },
   "keywords": [
-    "Angular 6",
+    "Angular",
     "ng",
     "Breadcrumbs"
   ],
   "typings": "./ng6-breadcrumbs.d.ts",
-  "author": "Centroida",
+  "author": "RicardoBorgesGO",
   "license": "MIT",
-  "homepage": "https://github.com/ekos-27/ng2-breadcrumbs",
+  "homepage": "https://github.com/RicardoBorgesGO/ng2-breadcrumbs",
   "devDependencies": {
     "@angular/animations": "~6.0.1",
     "@angular/common": "~6.0.1",
@@ -33,16 +33,16 @@
     "@angular/platform-browser-dynamic": "~6.0.1",
     "@angular/platform-server": "~6.0.1",
     "@angular/router": "6.0.1",
-    "@types/core-js": "^0.9.43",
+    "@types/core-js": "~0.9.43",
     "@types/node": "~8.9.4",
     "codelyzer": "~4.0.2",
-    "core-js": "^2.5.3",
-    "rxjs": "^6.1.0",
-    "ts-loader": "^3.2.0",
+    "core-js": "~2.5.3",
+    "rxjs": "~6.1.0",
+    "ts-loader": "~3.2.0",
     "ts-node": "~4.0.1",
     "tslint": "~5.8.0",
     "typescript": "2.7.2",
-    "zone.js": "^0.8.26"
+    "zone.js": "~0.8.26"
   },
   "dependencies": {}
 }

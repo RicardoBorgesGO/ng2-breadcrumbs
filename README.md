@@ -1,7 +1,6 @@
-# ng6-breadcrumbs
-[![npm version](https://badge.fury.io/js/ng6-breadcrumbs.svg)](https://badge.fury.io/js/ng6-breadcrumbs)
+# ngx-breadcrumbs-go
 
-ng2-breadrumbs is a module for [Angular](https://angular.io/) that generates a breadcrumb for any page of your application. It is based on the built-in [Angular router](https://angular.io/docs/ts/latest/guide/router.html).
+ngx-breadrumbs-go is a module for [Angular](https://angular.io/) that generates a breadcrumb for any page of your application. It is based on the built-in [Angular router](https://angular.io/docs/ts/latest/guide/router.html).
 
 ## [Demo](https://centroida.github.io/ng4-breadcrumbs/)
 
@@ -9,16 +8,16 @@ ng2-breadrumbs is a module for [Angular](https://angular.io/) that generates a b
 
 ## Getting started
 
-1.Install `ng6-breadcrumbs` via npm:
+1.Install `ngx-breadcrumbs-go` via npm:
 
 ```bash
-npm install --save ng6-breadcrumbs
+npm install --save ngx-breadcrumbs-go
 ```
 
 2.Import the `BreadcrumbsModule` within your app:
 
 ```js
-import {BreadcrumbsModule} from "ng6-breadcrumbs";
+import {BreadcrumbsModule} from "ngx-breadcrumbs-go";
 
 @NgModule({
   imports: [

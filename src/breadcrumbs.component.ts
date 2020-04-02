@@ -94,12 +94,13 @@ export class BreadcrumbComponent implements OnInit {
 
       // iterate over each children
       childrenRoutes.forEach(route => {
-        // Set currentRoute to this route
-        currentRoute = route;
         // Verify this is the primary route
         if (route.outlet !== PRIMARY_OUTLET) {
           return;
         }
+        // Set currentRoute to this route
+        currentRoute = route;
+        
         const hasData = (route.routeConfig && route.routeConfig.data);
         const hasDynamicBreadcrumb: boolean = route.snapshot.params.hasOwnProperty(this.ROUTE_PARAM_BREADCRUMB);
 
